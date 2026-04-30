@@ -1,13 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Ledger & Books Accountancy</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ledger & Books Accountancy</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Segoe UI, Calibri, sans-serif;
+            background: #f5f7fa;
+            color: #1a1a1a;
+        }
+        header {
+            background: #0a2342;
+            padding: 20px 40px;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header a {
+            color: white;
+            margin-left: 25px;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        header a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            padding: 120px 40px;
+            background: linear-gradient(to right, #0a2342, #0f3b57);
+            color: white;
+            text-align: left;
+        }
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 20px;
+            max-width: 600px;
+        }
+        .section {
+            padding: 60px 40px;
+            max-width: 1100px;
+            margin: auto;
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 25px;
+        }
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            border: 1px solid #d9e1e8;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        footer {
+            background: #0a2342;
+            color: white;
+            padding: 30px 40px;
+            text-align: center;
+            margin-top: 40px;
+        }
+        footer a {
+            color: #66c7ff;
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
-  <h1>Welcome to Ledger & Books Accountancy</h1>
-  <p>Your website is now live and working.</p>
-  <p>More pages coming soon.</p>
+
+<header>
+    <div style="font-size: 22px; font-weight: 700;">Ledger & Books Accountancy</div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="fees.html">Fees</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Clarity. Compliance. Confidence.</h1>
+    <p>Ledger & Books Accountancy provides expert accounting, tax, VAT, payroll and business advisory services to help your business grow with confidence.</p>
+</section>
+
+<section class="section">
+    <h2>Our Core Services</h2>
+    <div class="services">
+        <div class="card">
+            <h3>Accounting & Tax</h3>
+            <p>End‑to‑end accounting, tax returns, year‑end accounts and compliance for sole traders and limited companies.</p>
+        </div>
+        <div class="card">
+            <h3>VAT Compliance</h3>
+            <p>Accurate VAT submissions, MTD compliance and expert guidance to keep your business fully aligned with HMRC.</p>
+        </div>
+        <div class="card">
+            <h3>Payroll Services</h3>
+            <p>Reliable payroll processing, RTI submissions and employee documentation handled with precision.</p>
+        </div>
+        <div class="card">
+            <h3>Business Advisory</h3>
+            <p>Strategic insights, forecasting and financial planning to support sustainable business growth.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    © Ledger & Books Accountancy — All Rights Reserved  
+    <br>
+    <a href="privacy.html">Privacy Policy</a> | <a href="cookies.html">Cookies Policy</a>
+</footer>
+
 </body>
 </html>
